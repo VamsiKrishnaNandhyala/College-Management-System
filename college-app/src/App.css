@@ -1,0 +1,43 @@
+/* Universal Selector: Resets default styles for all elements */
+* {
+  margin: 0;                /* Remove default margin */
+  padding: 0;               /* Remove default padding */
+  box-sizing: border-box;   /* Include padding and border in element's total width and height */
+  font-family: Arial, sans-serif; /* Set a default font */
+  line-height: 1.5;         /* Set a default line height for better readability */
+  text-align: left;         /* Set text alignment to left */
+  color: #333;              /* Set a default text color */
+}
+
+h1{
+  text-align: center;
+  margin: 5px;
+}
+/* Style for the table */
+table {
+  width: 100%;                /* Full width of the container */
+  border-collapse: collapse;  /* Collapses borders into a single border */
+}
+
+/* Style for table headers */
+th {
+  background-color: #f2f2f2; /* Light grey background for headers */
+  padding: 10px;             /* Padding inside header cells */
+  border: 1px solid #ddd;    /* Border around header cells */
+}
+
+/* Style for table data cells */
+td {
+  padding: 10px;             /* Padding inside data cells */
+  border: 1px solid #ddd;    /* Border around data cells */
+}
+
+/* Optional: Add a hover effect */
+tr:hover {
+  background-color: #f5f5f5; /* Light grey background on row hover */
+}
+
+.container{
+  padding: 20px;
+}
+
